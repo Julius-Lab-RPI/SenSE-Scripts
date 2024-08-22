@@ -1,8 +1,9 @@
 function [t, y] = cheffer21_no_delay(time, input, initial_conditions)
-% Implementation of the Gois heart model in MATLAB.
+% Implementation of the Cheffer heart model in MATLAB.
 % Paper:
-% An analysis of heart rhythm dynamics using a three-coupled oscillator
-% model - Gois (2009).
+% Heart rhythm analysis using a nonlinear dynamics
+% perspective - Cheffer (2021).
+% Removes the delay terms to speed up the simulation slightly.
 
 % Sino-Atrial parameters.
 p.a_sa = 3;  

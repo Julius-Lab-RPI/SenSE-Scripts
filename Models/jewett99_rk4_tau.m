@@ -4,6 +4,8 @@ function [t, u, y] = jewett99_rk4_tau(time, input, initial_conditions, tau)
 % that the ODE solvers from MATLAB are all variable step, and are strictly
 % slower than this implementation.
 %
+% Takes tau as an argument for use in the particle filtering algorithm.
+%
 % Paper:
 % Revised limit cycle oscillator model of human circadian pacemaker -
 % Jewett (1999).

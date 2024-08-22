@@ -1,4 +1,6 @@
 function [tout, x] = vdp_simulink(t, input, initial_conditions)
+% Simple Simulink implementation of a Van der Pol oscillator.
+
 params = [
     0.75;   % eps.
     2;      % a.

@@ -1,4 +1,6 @@
 function [t, y] = sinoatrial_simulink(time, jfk_x, initial_conditions)
+% Heart model based on the Gois (2009) model, but with only the
+% sino-atrial node and a coupling to the JFK model's x variable.
 
 params = [
     % Sino-Atrial parameters.

@@ -1,5 +1,7 @@
 function [t, y] = ryzhii14simulink(time, input, initial_conditions)
-% 
+% Simulink implementation of the Gois heart model, but with Ryzhii's
+% parameter values and variable names.
+%
 % Papers:
 % An analysis of heart rhythm dynamics using a three-coupled oscillator
 % model - Gois (2009).
