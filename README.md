@@ -58,7 +58,16 @@ Theh observer-based filter was developed for circadian phase shift estimation us
 ## Particle Filter (*PF/*)
 The particle filter was used in building a circadian state estimation framework.
 
+#### Citation
+``` bibtex
+@article{ike2024model,
+  title={Model-Based Human Circadian State Estimation with Wearable Device Data},
+  author={Ike, Chukwuemeka O and Wen, John T and Oishi, Meeko MK and Brown, Lee K and Julius, A Agung},
+}
+```
+
 ## Synthetic Data Generation (*Synth/*)
+Scripts for generating synthetic circadian heart rate data. The process of generating a set of signals is included in the folder's README. To cite, use the citation for the Particle Filter paper.
 
 
 
@@ -79,3 +88,9 @@ This folder contains utility scripts for such things as:
 * calculating filter-based phase shifts
 * converting activity in steps to light based on the method by Huang et al. (2019)
 * generating a simulated light signal
+
+
+
+
+# Fitbit Python
+The lone script in this folder allows a user to download their own Fitbit data over a specified length of time. The script contains commented instructions on how to edit it to get what you need.
