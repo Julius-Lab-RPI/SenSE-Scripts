@@ -1,0 +1,22 @@
+{
+    "model": {
+        "model_path": "runs/rssm-unm-final/subject-3/exp2/model.pt",
+        "state_dict_path": "runs/rssm-unm-final/subject-3/exp2/state_dict.pt"
+    },
+    "loss": {
+        "dyn_loss": 0.2,
+        "rep_loss": 19.9,
+        "obs_reconstruct": 1.0,
+        "state_contrastive": 0.0
+    },
+    "config": {
+        "window_size": 512,
+        "batch_size": 64,
+        "learning_rate": 0.001,
+        "n_epoch": 200,
+        "det_state_dim": 2,
+        "stoch_state_dim": 16,
+        "encoder_hidden_dim": 64,
+        "window_len": 10
+    }
+}
